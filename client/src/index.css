@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+:root{
+  --bgcolor:#f1f5fd;
+  --primary-color:#6f5de7;
+  --text-color:#838386;
+  ---main-text-color:#333333;
+}
+html{
+  font-size: 62.5%;
+}
+body{
+  /* background-color: #c0b7fc; */
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+h1,h2,h3,h4,h5,h6{
+  color: #333333;
+}
+.nav-bg{
+  background-color: var(--bgcolor);
+  position: relative;
+  padding: 0 2rem;
+  z-index: 99;
+}
+.navbar-brand{
+  font-size:2.5rem;
+}
+.navbar li{
+  padding: 0 2rem;
+}
+.navbar li a{
+  font-size: 1.7rem;
+  font-weight: lighter;
+  position: relative;
+}
+.navbar li a:hover{
+  color: var(--primary-color);
+  text-shadow: 0.01rem 0.03rem 0.04rem var(--primary-color);
+  border-bottom: 2px solid var(--primary-color);
+  transition: 0.5s;
+  
+}
+.btn-style{
+  width: 12rem;
+  height: 4rem;
+  border-radius: 2rem;
+  background-color: var(--primary-color);
+  text-transform: capitalize;
+  color:#fff;
+  margin: 0 5px;
+  font-size: 14px;
+}
+.btn-log{
+  width: 12rem;
+  height: 4rem;
+  border: 0.1rem solid var(--primary-color) ;
+  border-radius: 2rem;
+  color: var(--primary-color);
+  text-transform: capitalize;
+  background-color:transparent;
+  margin: 0 5px;
+  font-size: 14px;
+}
+
+.btn-style:hover{
+  border: 0.1rem solid var(--primary-color) ;
+  background-color: transparent;
+  color: var(--primary-color);
+  box-shadow: 0.01rem 0.03rem 0.04rem var(--primary-color) ;
+  transition: 0.5s;
+}
+.btn-log:hover{
+  border: 0.1rem solid var(--primary-color) ;
+  transition: 0.5s;
+  color: var(--bgcolor);
+  background-color: var(--primary-color);
+  box-shadow: 0.01rem 0.03rem 0.04rem var(--primary-color) ;
+}
+
+/* Contact Section Start*/
+.contact-section{
+  margin: 10rem 0;
+}
+.contact-left img
+{
+  margin-top: 2rem;
+}
+.contact-left img:hover{
+  transition: all 1s;
+  animation: rotatefont 1s linear infinite alternate-reverse;
+}
+.form-control{
+  font-size: 1.5rem;
+  height: 4rem;
+  font-weight: lighter;
+  padding-left: 1rem;
+  border: 1px solid #cde4cd;
+  border-radius: 0.5rem;
+}
+.contact-right{
+  padding-left: 3rem;
+  margin-top:5rem ;
+}
+.form-check-label{
+  margin: 0;
+}
+/* Contact Section END*/
